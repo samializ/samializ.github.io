@@ -1,0 +1,35 @@
+body{
+    background-color: #F0E68C;
+}
+
+header{
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #FFD700;
+}
+
+header h1{
+    padding: 3px;
+    text-align: center;
+}
+
+
+.sinopse{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5em;
+    
+}
+img{
+    padding: 20px;
+    border-radius: 50%;
+}
+
+@media (max-width: 768px){
+    .sinopse {
+        flex-direction: column;
+    }
+}
+    

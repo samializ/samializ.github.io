@@ -1,0 +1,44 @@
+body{
+    background-color: #F0E68C;
+}
+
+header{
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #FFD700;
+}
+
+
+header h1{
+    color: #000000; 
+    padding: 3px;
+    text-align: center;
+}
+
+
+.curiosidades{
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5em;
+    
+}
+img{
+    padding: 20px;
+    width: 50%;
+}
+.curiosidades ol{
+    margin-top: 5%;
+}
+
+footer{
+    text-align: center;
+}
+
+@media(max-width: 768px) {
+    .curiosidades{
+        flex-direction: column;
+    }
+}
+    

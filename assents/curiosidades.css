@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    background-color: rgb(245, 223, 96);
+}
+
+span{
+    color: rgb(50, 11, 224);
+    font-size: 2em;
+}
+
+.total{
+    font-size: 4em;
+    margin: 20px;
+}
+.total h1{
+    color: rgb(214, 147, 21);
+    font-size: 1em;
+}
+
+
+ul{
+    font-size: 0.5em;
+    margin: 20px;
+}
+
+.txt{
+    display: flex;
+    gap: 10px;
+}
+
+.txt img{
+    height: 70%;
+    border-radius: 50%;
+    margin-top: 123px;
+}
+
